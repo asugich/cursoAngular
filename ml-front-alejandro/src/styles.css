@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+  height: 100%;
+  width: 100%;
+  /* fallback for old browsers */
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #fdeeff,
+    #fae6fd,
+    #f8dffb,
+    #f9dffc
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(
+    to right,
+    #fdeeff,
+    #fae6fd,
+    #f8dffb,
+    #f9dffc
+  );
+}

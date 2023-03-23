@@ -1,0 +1,32 @@
+<div class="container" style="text-align: center;">
+  <h1 style="font-size: 40px">Validation</h1>
+  <hr />
+  <br />
+  <div>
+    <div style="display: flex; align-items: center; justify-content: center; column-gap: 100px; ">
+        <h2 style="width: 500px;">Tag Name or ID</h2>
+        <h2 style="width: 500px;">Tag Input</h2>
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center; column-gap: 100px; margin-bottom: 30px;" *ngFor="let tag of tags">
+      <input type="text" [placeholder]="tag.input_tag" style="width: 493.79px; height: 45.8px; text-align: center; font-size: 35px; background-color: rgb(232, 232, 232); border-radius: 5px" disabled />
+      <select style="width: 500px; height: 50px; font-size: 30px; text-align: center; border-radius: 5px;">
+        <option value="predict">{{tag.predict}}</option>
+        <option value="age">age</option>
+        <option value="address">birthday</option>
+        <option value="birthday">birthday</option>
+        <option value="curp">curp</option>
+        <option value="day">day</option>
+        <option value="gender">gender</option>
+        <option value="lastname">lastname</option>
+        <option value="mail">mail</option>
+        <option value="money">money</option>
+        <option value="name">name</option>
+        <option value="pass">password</option>
+        <option value="phone">phone</option>
+        <option value="user">user</option>
+      </select>
+    </div>
+    <br>
+    <button style="width: 250px; height: 50px; font-size: 20px; background-color: rgb(141, 232, 141); border-radius: 5px;">Send</button>
+  </div>
+</div>
